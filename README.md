@@ -1,4 +1,4 @@
-# Prueba Django
+# Prueba Importar Excel Django
 
 _Prueba realizada para CiberC Latam_
 
@@ -29,12 +29,13 @@ _Ejecutar los siguientes pasos_
 3. ejecutar:  source bin/activate
 4. instalar:  pip3 install -r requirements.txt
 5. instalar Mysql 8
-6. editar los accesos de bd:  examen/inventario/inventario/settings.py
-7. ingresar examen/inventario
-8. ejecutar  sudo python3 manage.py makemigrations inv
-9. ejecutar  sudo python3 manage.py migrate inv
-10. ejecutar  sudo python3 manage.py createsuperuser
-11. ejecutar  sudo python3 manage.py runserver
+6. crear una base de datos llamada  examen
+7. editar los accesos de bd:  examen/inventario/inventario/settings.py
+8. ingresar examen/inventario
+9. ejecutar  sudo python3 manage.py makemigrations inv
+10. ejecutar  sudo python3 manage.py migrate inv
+11. ejecutar  sudo python3 manage.py createsuperuser
+12. ejecutar  sudo python3 manage.py runserver
 ```
 
 ### Pruebas
